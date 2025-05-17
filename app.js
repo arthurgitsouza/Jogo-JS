@@ -1,10 +1,10 @@
 alert('Boas Vindas ao Jogo do Número Secreto!');
 
 let numeroSecreto = 10;
-let chute
-let tentativas = 1
+let chute;
+let tentativas = 1;
 
-console.log(numeroSecreto)
+console.log(numeroSecreto);
 
 while(chute != numeroSecreto){
     chute = prompt('Digite um número entre 1 e 50:') // a variável chute receberá o input através da func Prompt()
